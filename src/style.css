@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap');
+
 /*--------------------------------------------------------------
 # fontawesome
 --------------------------------------------------------------*/
@@ -13,6 +15,8 @@ html {
 
 body {
   margin: 0;
+  font-family: 'Golos Text', sans-serif;
+  font-size: 14px;
 }
 
 article,
