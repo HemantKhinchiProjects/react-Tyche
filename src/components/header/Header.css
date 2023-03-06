@@ -1,0 +1,10 @@
+.top-header-bar-container {
+  width: 100%;
+  background: var(--base03);
+  color: #fff;
+  vertical-align: middle;
+}
+.site-header {
+  background: var(--base04);
+  padding-top: 15px;
+}
