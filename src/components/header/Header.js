@@ -1,29 +1,35 @@
 import React from 'react';
 import './Header.css';
+import TopHeader from './TopHeader';
+TopHeader;
 const Header = () => {
-  <header id="masthead" class="site-header" role="banner">
-    This is Header
-    <div class="site-branding container">
-      <div class="row">
-        <div class="col-sm-4 header-logo">
-          <div class="site-title-description">
-            <p class="site-description"></p>
+  return (
+    <>
+      <TopHeader />
+      <header id="masthead" className="site-header" role="banner">
+        <div className="site-branding container">
+          <div className="row">
+            <div className="col-sm-4 header-logo">
+              <div className="site-title-description">
+                <p className="site-description"></p>
+              </div>
+            </div>
+            <div className="col-sm-8 header-banner"></div>
           </div>
         </div>
-        <div class="col-sm-8 header-banner"></div>
-      </div>
-    </div>
-    <nav id="site-navigation" class="main-navigation" role="navigation">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <button href="#" id="mobile-menu-trigger">
-              <i class="fa fa-bars"></i>{' '}
-            </button>
+        <nav id="site-navigation" className="main-navigation" role="navigation">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+                <button href="#" id="mobile-menu-trigger">
+                  <i className="fa fa-bars"></i>{' '}
+                </button>
+              </div>
+            </div>
           </div>
-        </div>
-      </div>
-    </nav>
-  </header>;
+        </nav>
+      </header>
+    </>
+  );
 };
 export default Header;
