@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import TopHeader from './TopHeader';
+import { Link } from 'react-router-dom';
 TopHeader;
 const Header = () => {
   return (
@@ -10,7 +11,7 @@ const Header = () => {
         <div className="site-branding container">
           <div className="row">
             <div className="col-sm-4 header-logo">
-              <a href="">
+              <Link to="/">
                 <img
                   width="150"
                   height="70"
@@ -19,7 +20,7 @@ const Header = () => {
                   alt="Tyche Demo"
                   decoding="async"
                 />
-              </a>
+              </Link>
               <div className="site-title-description">
                 <p className="site-description"></p>
               </div>
