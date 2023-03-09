@@ -1,5 +1,5 @@
 import React from 'react';
-import { navbarMenus } from '../utils/constants';
+import { navbarMenus } from '../../utils/constants';
 import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
@@ -13,18 +13,6 @@ const Navbar = () => {
             </li>
           );
         })}
-        <li>
-          <a href="#">Menu Item 1</a>
-        </li>
-        <li>
-          <a href="#">Menu Item 2</a>
-        </li>
-        <li>
-          <a href="#">Menu Item 3</a>
-        </li>
-        <li>
-          <a href="#">Menu Item 4</a>
-        </li>
       </ul>
     </nav>
   );
