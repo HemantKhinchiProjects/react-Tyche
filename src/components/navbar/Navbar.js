@@ -1,13 +1,17 @@
 import React from 'react';
-import Menu from './utils/Menu';
+import { navbarMenus } from '../utils/constants';
 import { Link } from 'react-router-dom';
 const Navbar = () => {
   return (
     <nav className="main-navigation">
       <ul className="sf-menu">
-        {Menu.map((link) => {
+        {navbarMenus.map((link) => {
           const { id, text, url } = link;
-          return <li></li>;
+          return (
+            <li key={id}>
+              <Link to={url}>{text}</Link>
+            </li>
+          );
         })}
         <li>
           <a href="#">Menu Item 1</a>

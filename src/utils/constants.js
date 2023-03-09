@@ -1,6 +1,6 @@
 import React from 'react';
 // import { GiCompass, GiDiamondHard, GiStabbedNote } from 'react-icons/gi';
-export const links = [
+export const navbarMenus = [
   {
     id: 1,
     text: 'home',
