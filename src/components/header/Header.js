@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import TopHeader from './TopHeader';
+import Navbar from '../navbar/Navbar';
 import { Link } from 'react-router-dom';
 TopHeader;
 const Header = () => {
@@ -28,6 +29,7 @@ const Header = () => {
             <div className="col-sm-8 header-banner"></div>
           </div>
         </div>
+        <Navbar/>
       </header>
     </>
   );

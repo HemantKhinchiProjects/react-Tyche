@@ -2,14 +2,12 @@ import React from 'react';
 import './style.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/header/Header';
-import Navbar from './components/navbar/Navbar';
 import { Home, Blog, Shop, Contact } from './pages';
 export default function App() {
   return (
     <>
       <BrowserRouter>
         <Header />
-        <Navbar />
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/blog" element={<Blog />} />

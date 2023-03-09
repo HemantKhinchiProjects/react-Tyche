@@ -1,3 +1,18 @@
+.sf-menu {
+  display: inline-block;
+}
+.sf-menu {
+  width: 100%;
+  border-top: 1px solid #35373e;
+  margin-top: 15px;
+}
+.sf-menu,
+.sf-menu ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: left;
+}
 .sf-menu a {
   display: block;
   font-family: 'Karla', sans-serif;
@@ -6,7 +21,19 @@
   position: relative;
   text-transform: uppercase;
 }
+.sf-menu > li {
+  display: inline-block;
+}
 .sf-menu > li > a {
   position: relative;
   display: block;
+}
+.sf-menu > li > a,
+.sf-menu > li.dropdown > a {
+  padding: 15px 30px 15px 0;
+  color: #ffffff;
+}
+.sf-menu > li.current-menu-item > a,
+.sf-menu > li.current > a {
+  color: #f66249;
 }
