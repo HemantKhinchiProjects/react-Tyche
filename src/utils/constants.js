@@ -33,31 +33,31 @@ export const navbarMenus = [
 export const subFooter = [
   {
     id: 1,
-    icon: <FaFacebookF />,
+    iconn: <FaFacebookF />,
     title: 'Facebook',
     url: 'https://www.facebook.com/',
   },
   {
     id: 2,
-    icon: <FaTwitter />,
+    iconn: <FaTwitter />,
     title: 'Twitter',
     url: 'https://twitter.com/',
   },
   {
     id: 3,
-    icon: <FaDribbble />,
+    iconn: <FaDribbble />,
     title: 'Dribbble',
     url: 'https://dribbble.com/',
   },
   {
     id: 4,
-    icon: <FaVimeoV />,
+    iconn: <FaVimeoV />,
     title: 'VimeoV',
     url: 'https://vimeo.com/',
   },
   {
     id: 5,
-    icon: <FaYoutube />,
+    iconn: <FaYoutube />,
     title: 'Youtube',
     url: 'https://www.youtube.com/',
   },

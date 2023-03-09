@@ -4,3 +4,55 @@
   font-size: 15px;
   color: #fff;
 }
+/*Sub Footer*/
+#menu-social ul li {
+  display: inline-block;
+  position: relative;
+}
+
+#menu-social ul li a:before {
+  content: '';
+  display: inline-block;
+  padding: 0 5px;
+  /* font-family: 'FontAwesome'; */
+  font-size: 16px;
+  vertical-align: top;
+  -webkit-font-smoothing: antialiased;
+}
+#menu-social ul li:first-of-type a {
+  padding-left: 0;
+}
+#menu-social ul li a {
+  padding: 10px 10px;
+  color: #fff;
+}
+.screen-reader-text {
+  position: absolute;
+  top: -9999em;
+  left: -9999em;
+}
+.screen-reader-text {
+  border: 0;
+  clip: rect(1px, 1px, 1px, 1px);
+  clip-path: inset(50%);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  word-wrap: normal !important;
+}
+.screen-reader-text {
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+.site-copyright a,
+.site-copyright p,
+.site-copyright span,
+.site-copyright i {
+  color: #fff;
+}
