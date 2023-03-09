@@ -3,6 +3,7 @@ import './style.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './components/header/Header';
 import { Home, Blog, Shop, Contact } from './pages';
+import Footer from './components/footer/Footer';
 export default function App() {
   return (
     <>
@@ -24,6 +25,7 @@ export default function App() {
           /> */}
           <Route path="*" element={<Error />} />
         </Routes>
+        <Footer />
       </BrowserRouter>
     </>
   );
