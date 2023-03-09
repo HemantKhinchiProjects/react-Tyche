@@ -3,7 +3,7 @@ import React from 'react';
 export const navbarMenus = [
   {
     id: 1,
-    text: 'home',
+    text: 'Home',
     url: '/',
   },
   {
