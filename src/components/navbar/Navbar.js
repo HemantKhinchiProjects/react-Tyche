@@ -2,6 +2,8 @@ import React from 'react';
 import './Navbar.css';
 import { navbarMenus } from '../../utils/constants';
 import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
 const Navbar = () => {
   return (
     <nav className="main-navigation">
@@ -13,7 +15,14 @@ const Navbar = () => {
                 const { id, text, url } = link;
                 return (
                   <li key={id}>
-                    <Link to={url}>{text}</Link>
+                    <NavLink
+                      to={url}
+                      className={({ isActive, isPending }) =>
+                        isPending ? 'pending' : isActive ? 'current' : ''
+                      }
+                    >
+                      {text}
+                    </NavLink>
                   </li>
                 );
               })}

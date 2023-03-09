@@ -34,6 +34,6 @@
   color: #ffffff;
 }
 .sf-menu > li.current-menu-item > a,
-.sf-menu > li.current > a {
+.sf-menu > li > a.current {
   color: #f66249;
 }
